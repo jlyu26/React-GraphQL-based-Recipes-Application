@@ -8,5 +8,6 @@ Stack: React + GraphQL (Apollo Client) + Express + Mongoose.
 
 | Function     | Description   | Status  | Tech Used  |
 | -------------|:--------------| ------- |:----------- |
-| 1. User signup |  | To do |  |
-|||||
+| 1. User signup |  | Finished | bcrypt (hash password), react-router-dom (routing), react-apollo (Mutation component) |
+| 2. |||  |
+| 0. Polish UI apperance | | | Skeleton CSS |
