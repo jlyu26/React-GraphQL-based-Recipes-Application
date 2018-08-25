@@ -5,12 +5,12 @@ import Error from '../Error';
 import { SIGNUP_USER } from '../../queries';
 
 const initialState = {
-		username: "",
-		email: "",
-		password: "",
-		passwordConfirmation: ""
+	username: "",
+	email: "",
+	password: "",
+	passwordConfirmation: ""
 
-	};
+};
 
 class Signup extends React.Component {
 	state = { ...initialState };
@@ -28,6 +28,7 @@ class Signup extends React.Component {
 		event.preventDefault();
 		signupUser().then(data => {
 			console.log(data);
+			localStorage.setItem('token', data.signupUser.token);
 			this.clearState();
 		});
 	};
