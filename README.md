@@ -10,5 +10,5 @@ Stack: React + GraphQL (Apollo Client) + Express + Mongoose.
 | -------------|:--------------| ------- |:----------- |
 | 1. User signup |  | Finished | bcrypt (hash password), react-router-dom (routing), react-apollo (Mutation component) |
 | 2. User signin and authentication, redirect upon signin/signup || Finished | Local Storage, JWT, graphql-express middleware, HOC (Higher-Order Components, withSession.js and withRouter from react-router-dom) |
-| 3. Navigation ||||
+| 3. Navigation, dynamic navbar based on whether user logged in, user signout || In progress | session |
 | 0. Polish UI apperance | | | Skeleton CSS |
