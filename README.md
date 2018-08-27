@@ -13,7 +13,7 @@ Stack: React + GraphQL (Apollo Client) + Express + Mongoose.
 | 3. Navigation, dynamic navbar based on whether user logged in, user signout || Finished | session, ApolloConsumer from react-apollo, localStorage |
 | 4. Create and display recipes || Finished | react-apollo (Mutation component), apollo-cache-inmemory (InMemoryCache, cache object), etc. |
 | 5. Search recipe(s) || Finished | react-apollo (ApolloConsumer component) |
-| 6. User profile || To do ||
+| 6. User profile || Finished | Route protection: add withAuth()() to Profile and AddRecipe route |
 | 7. Delete user recipes || To do ||
 | 8. Like/unlike recipe || To do ||
 | 0. Polish UI apperance | | | React Pose Animation, Skeleton CSS |
