@@ -58,6 +58,10 @@ query {
 		username
 		joinDate
 		email
+		favorites {
+			_id
+			name
+		}
 	}
 }
 `;
