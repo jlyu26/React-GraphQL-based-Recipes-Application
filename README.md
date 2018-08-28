@@ -15,5 +15,5 @@ Stack: React + GraphQL (Apollo Client) + Express + Mongoose.
 | 5. Search recipe(s) || Finished | react-apollo (ApolloConsumer component) |
 | 6. User profile || Finished | Route protection: add withAuth()() to Profile and AddRecipe route |
 | 7. Delete user recipes || Finished | Optimistic UI |
-| 8. Like/unlike recipe || In progress ||
-| 0. Polish UI apperance | | | React Pose Animation, Skeleton CSS |
+| 8. Like/unlike recipe || Finished | Optimistic UI, like/unlike toggle client-side logic |
+| 0. Polish UI apperance | | To do | React Pose Animation, Skeleton CSS |
