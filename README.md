@@ -18,4 +18,4 @@ Stack: React + GraphQL (Apollo Client) + Express + Mongoose.
 | 8. Like/unlike recipe || Finished | Optimistic UI, like/unlike toggle client-side logic |
 | 9. Clean up repetitive in queries || To do | Fragments |
 | 10. Integrate CKEditor || Finished | react-ckeditor-component (CKEditor) |
-| 0. Polish UI apperance | | To do | React Pose Animation, Skeleton CSS |
+| 0. Polish UI apperance || Finished | react-pose (React Pose Animation), react-spinners, Skeleton CSS |
