@@ -6,6 +6,7 @@ query {
 	getAllRecipes {
 		_id
 		name
+		imageUrl
 		category
 	}
 }
@@ -16,6 +17,7 @@ query($_id: ID!) {
 	getRecipe(_id: $_id) {
 		_id
 		name
+		imageUrl
 		category
 		description
 		instructions
