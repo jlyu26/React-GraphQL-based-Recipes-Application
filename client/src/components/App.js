@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 
 import { Query } from 'react-apollo';
@@ -12,7 +12,7 @@ const App = () => (
 			{({ data, loading, error }) => {
 				if (loading) return <div>Loading...</div>
 				if (error) return <div>Error</div>
-				console.log(data);
+				// console.log(data);
 				return (
 					<ul>
 						{data.getAllRecipes.map(recipe => (
