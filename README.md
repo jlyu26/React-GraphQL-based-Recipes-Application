@@ -1,10 +1,14 @@
-# React/GraphQL based Recipes Application
+# React-GraphQL based Recipes Application
 
-An application where people can find authentic Asia recipes. 
+An application where people can share and find recipes.
 
-Stack: React + GraphQL (Apollo Client) + Express + Mongoose.
+[[Click here to checkout demo.]](https://react-graphql-recipes.herokuapp.com/)
 
-## Todo List:
+Stack: React + GraphQL (Apollo Stack) + Express + Mongoose + JWT + Pose + Skeleton CSS.
+
+<img src="https://jlyu26.github.io/assets/img/recipeak.PNG" alt="">
+
+## Milestones:
 
 | Function     | Description   | Status  | Tech Used  |
 | -------------|:--------------| ------- |:----------- |
